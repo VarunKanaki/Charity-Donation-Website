@@ -97,7 +97,6 @@ http://localhost/charitydonation/
 ## 📬 Contact
 
 - 📧 Email: [charitycircle09@gmail.com](mailto:charitycircle09@gmail.com)
-- 📍 Address: Government Polytechnic, Akkalkot Road, Solapur, Maharashtra
 
 ---
 
