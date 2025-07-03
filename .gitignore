@@ -1,0 +1,30 @@
+# Dependency and environment directories
+/vendor/
+node_modules/
+
+# OS and IDE junk
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# Personal or generated assets
+profile_photos/
+uploads/
+
+
+
+# SQL/database dumps
+*.sql
+
+# Cache/SASS/compiled
+.sass-cache/
+.cache/
+
+# System-specific
+.env

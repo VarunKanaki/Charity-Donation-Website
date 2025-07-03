@@ -1,0 +1,86 @@
+﻿
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 30px;
+    
+}
+
+h1, h2, h3.h4 {
+    font-family: 'Nova Flat';
+}
+
+h3 {
+    color: #FF4F4F;
+}
+
+h2:after {
+    content: '';
+    display: block;
+    width: 120px;
+    height: 2px;
+    background: #FF4F4F;
+    margin: auto;
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+/*=====================================
+ MAIN  HEADER SECTION  STYLE 
+    ===================================*/
+	
+.main-head
+{
+	background-image:url('../images/fund_bg.jpg');
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+.main-head .fund_form_cont{
+	margin-left:0px;
+    color: #fff;
+    padding: 20px 20px 35px 20px;
+	width:400px;
+    line-height: 100px;
+    font-size: 20px;
+    text-align: center;
+background: rgb(30,223,255);
+background: linear-gradient(0deg, rgba(30,223,255,1) 0%, rgba(0,5,255,1) 100%);
+}
+
+    .main-head input:focus {
+        border: 3px solid white;
+		box-shadow:0px 0px 15px 4px white;
+
+    }
+
+    .main-head .form-control {
+        height: 40px;
+        
+		font-size:20px;
+        border: 1px solid white;
+        margin-bottom:10px;
+    }
+
+    .main-head span {
+        color: #FF4F4F;
+        font-size: 30px;
+    }
+
+    .main-head h5 {
+        padding: 10px 2px 10px 2px;
+		font-size:30px;
+    }
+
+
+.fund_btn
+{
+	background-color:red;
+}
+.fund_btn:hover
+{
+	font-weight:bolder;
+	background-color:white;
+	color:red;
+}

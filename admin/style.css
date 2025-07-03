@@ -1,0 +1,169 @@
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+
+}
+
+/*tab css code ends*/
+
+
+.cstm_add_don_btn
+{
+	border:1px solid black;
+	margin-top:20px;
+	width:80px;
+	height:40px;
+	border-radius:20px;
+	float:right;
+	background-color:blue;
+	color:white;
+}
+
+.form_container
+{
+	margin-top:40px;
+	border:1px solid Black;
+	padding:40px;
+	border-radius:30px;
+	font-size:20px;
+
+	
+}
+.form_container h3
+{
+	margin-bottom:30px;
+}
+.inputbox
+{
+		border-radius:20px;
+		box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.charity_logo
+{
+	width:500px;
+	height:500px;
+	border:1px solid black;
+	border-radius:50%;
+	margin-top:50px;
+	margin-left:80px;
+	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.cstm_add_events_form_section
+{
+	padding-right:50px;
+
+}
+.cstm_event_data_section
+{
+		margin-top:30px;
+		padding-left:30px;
+
+}
+.cstm_event_data_section table
+{
+	margin-top:100px;
+}
+
+.export_dashboard_btn
+{
+		width:120px;
+		height:40px;
+		float:right;
+		margin-right:220px;
+		margin-top:20px;
+		
+		text-align:center;
+		text-decoration:none;
+		border:1px solid black;
+		background-color:blue;
+		border-radius:20px;
+		font-size:20px;
+		padding:4px;
+}
+.export_dashboard_btn a
+{
+	color:white;
+	text-decoration:none;
+}
+.export_volunteer_btn
+{
+		width:120px;
+		height:40px;
+		margin-left:560px;
+		margin-top:20px;
+		
+		text-align:center;
+		text-decoration:none;
+		border:1px solid black;
+		background-color:blue;
+		border-radius:20px;
+		font-size:20px;
+		padding:4px;
+}
+.export_volunteer_btn a
+{
+	color:white;
+	text-decoration:none;
+}
+
+.export_category_btn
+{
+	width:120px;
+		height:40px;
+		margin-left:510px;
+		margin-top:20px;
+		
+		text-align:center;
+		text-decoration:none;
+		border:1px solid black;
+		background-color:blue;
+		border-radius:20px;
+		font-size:20px;
+		padding:4px;
+	
+}
+.export_category_btn a
+{
+	color:white;
+	text-decoration:none;
+}
+
+.export_contact_btn
+{
+		width:120px;
+		height:40px;
+		margin-left:520;
+		margin-top:20px;
+		
+		text-align:center;
+		text-decoration:none;
+		border:1px solid black;
+		background-color:blue;
+		border-radius:20px;
+		font-size:20px;
+		padding:4px;
+	
+}
+.export_contact_btn a
+{
+	color:white;
+	text-decoration:none;
+}
+.rep_tbl
+{
+	margin-left:20px;
+}
+.rep_tbl thead{
+font-family: 'Poppins', sans-serif;
+background-color:cornsilk;
+}
+
+.rep_tbl tbody
+{
+	background-color:#FCF9FF;
+}

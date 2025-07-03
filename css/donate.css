@@ -1,0 +1,55 @@
+.cstm_card{
+	width:200px;
+	gap:50;
+	margin:20px;
+	padding:5px;
+	
+	border:3px solid #A2B5BB;
+	box-shadow:rgba(99,99,99,0.2)0px 2px 8px 0px;
+		
+}
+
+
+.cstm_img{
+	border-radius:10px;
+	
+}
+.cstm_title{
+	font-size:30px;
+	font-weight:bold;
+	font-family:Sitka Text;
+	text-shadow:1px 1px black;
+}
+.cstm_purpose{
+	font-size:22px;
+	font-family:Times New Roman;
+}
+.catcontainer{
+display:flex;}
+.cstm_founder{
+	font-size:22px;
+	font-family:Times New Roman;
+}
+.donate{
+	font-weight:bold;
+	width:200px;
+	padding-bottom:10px;
+	text-shadow:10px;
+	font-size:25px;
+	text-shadow:0.5px 0.5px #EEEEEE;
+	
+}
+.donate:hover{
+	color:#5463FF;
+	background-color:white;
+	border:3px solid #5463FF;
+}
+	
+.cstm_foot{
+	background-color:#F3E8FF;
+	padding-top:20px;
+}
+.don_cat_cont
+{
+	display:flex;
+}

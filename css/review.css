@@ -1,0 +1,142 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.h1design{
+    top: 25px;
+    color: goldenrod;
+    text-align: center;
+}
+.h1design:hover{
+    text-decoration: underline;
+    color: black;
+}
+.review_wrapper{
+    background: linear-gradient(to right,#E83B41,#E83B41);
+    width: 1970px;
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.review_wrapper h1{
+    font-size: 40px;
+    font-weight: 600s;
+    margin-bottom: 40px;
+}
+.review_wrapper h5{
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+}
+.textedit{
+      text-shadow: 1px 1px 1px 1px;
+      text-align: justify;
+}
+.review_cardimg{
+    border-radius: 15px;
+    margin: 8px;
+    padding: 20px 30px;
+    position: relative;
+    background: rgba(255, 255, 255, 0.2);
+    transition: 0.5s;
+    width: 100%;
+}
+.review_cardimg img{
+    border: 5px solid #333;
+    border-radius: 50%;
+    position: relative;
+    top:-10px;
+    left: 10px;
+
+}
+.cards p{
+    font-size: 16px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+.cards h4{
+    color: #333;
+    font-weight: 400;
+}
+.cards i{
+    font-size: 60px;
+    position: absolute;
+    bottom: 20px;
+    right: 25px;
+    color: #333;
+}
+.cardimg:hover{
+    transform: scale(1.1);
+    color: #333;
+    background-color: #fff;
+}
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
+  
